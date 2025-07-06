@@ -1,12 +1,13 @@
 import Link from "next/link";
-import Image from "next/image";
+
 
 {/* social media links with there icons */}
 
 export default function Social_Media_Links() {
   return (
+    // Linkedin
     <div className="flex flex-row justify-between py-6">
-      <Link href="https://www.linkedin.com/in/shashvat-singhal/">
+      <Link href="https://www.linkedin.com/in/shashvat-singhal/" target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="w-25 h-25 fill-current text-[color:var(--foreground)]"
@@ -16,8 +17,8 @@ export default function Social_Media_Links() {
         </svg>
 
       </Link>
-      {/* google scholar */}
-      <Link href="https://www.linkedin.com/in/shashvat-singhal/">
+      {/* // google scholar */}
+      <Link href="https://scholar.google.com/citations?user=vR0Jp0kAAAAJ&hl=en"  target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="w-25 h-25 fill-current text-[color:var(--foreground)]"
@@ -29,7 +30,7 @@ export default function Social_Media_Links() {
       </Link>
       {/* github */}
       
-      <Link href="https://www.linkedin.com/in/shashvat-singhal/">
+      <Link href="https://github.com/Shashvat-bbx/" target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="w-25 h-25 fill-current text-[color:var(--foreground)]"
@@ -40,8 +41,8 @@ export default function Social_Media_Links() {
 
       </Link>
 
-      {/* google scholar */}
-      <Link href="https://www.linkedin.com/in/shashvat-singhal/">
+      {/* Email */}
+      <Link href="mailto:shashvat990@gmail.com" target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="w-30 h-30 fill-current text-[color:var(--foreground)]"

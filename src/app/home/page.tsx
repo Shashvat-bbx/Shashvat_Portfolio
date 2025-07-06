@@ -1,5 +1,5 @@
 // write the home page here
-import Image from "next/image";
+
 import Name_and_Photo from "../components/Name_and_Photo";
 import Social_Media_Links from "../components/Social_Media_Links";
 
