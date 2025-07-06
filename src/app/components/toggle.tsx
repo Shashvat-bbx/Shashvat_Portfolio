@@ -20,8 +20,8 @@ export default function ThemeToggle() {
   };
 
   return (
-    <button onClick={toggleTheme} className="p-2 border rounded">
-      {theme === 'light' ? '🌙 Dark' : '☀️ Light'}
+    <button onClick={toggleTheme} className="p-1 border rounded">
+      {theme === 'light' ? '🌙' : '☀️'}
     </button>
   );
 }

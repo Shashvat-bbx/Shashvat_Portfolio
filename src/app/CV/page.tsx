@@ -1,5 +1,5 @@
 // this is the CV page
-import Image from "next/image";
+
 
 export default function CVPage() {
   return (
